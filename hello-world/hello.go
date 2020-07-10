@@ -31,4 +31,6 @@ func Hello(name string, language string) string {
 
 func main() {
 	fmt.Println(Hello("David", "Spanish"))
+	fmt.Println(Hello("David", "French"))
+	fmt.Println(Hello("David", "English"))
 }
